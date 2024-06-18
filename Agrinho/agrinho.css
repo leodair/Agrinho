@@ -7,14 +7,14 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0 10px rgb(0, 0, 0); 
 }
 body {
     background-image: linear-gradient(to right, #1455aaf1, #2d92df);
 }
 #navbar {
     overflow: hidden;
-    background-color: #000000;
+    background-color: #010103;
   }
   
   #navbar a {
@@ -45,7 +45,7 @@ body {
     background: transparent;
     outline: none;
     border: 0;
-    color: #d4af37;
+    color: #0d7de6;
     letter-spacing: 0.1em;
     font-family: monospace;
     font-size: 17px;
@@ -62,7 +62,7 @@ body {
   .cube .bg-top {
     position: absolute;
     height: 10px;
-    background: #d4af37;
+    background: #0d7de6;
     bottom: 100%;
     left: 5px;
     right: -5px;
@@ -81,13 +81,13 @@ body {
     bottom: 0;
     top: 0;
     right: 0;
-    background: #d4af37;
+    background: #0d7de6;
     transition: all 0.4s;
   }
   
   .cube .bg-right {
     position: absolute;
-    background: #d4af37;
+    background: #0d7de6;
     top: -5px;
     z-index: 0;
     bottom: 5px;
@@ -116,12 +116,12 @@ body {
   }
   
   .cube:hover .bg-inner {
-    background: #d4af37;
+    background: #0085dd;
     transition: all 0.4s;
   }
-  
+ 
   .cube:hover .text {
-    color: #28282d;
+    color: #ffffff;
     transition: all 0.4s;
   }
   
@@ -140,5 +140,13 @@ body {
     50% {
       transform: scale(0.9);
     }
+  }
+  .borda {
+  padding-left: 20px;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif; 
   }
   
