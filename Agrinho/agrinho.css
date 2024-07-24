@@ -149,4 +149,7 @@ body {
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif; 
   }
-  
+  p{
+    color: #010103;
+    font-size: 20px;
+  }
