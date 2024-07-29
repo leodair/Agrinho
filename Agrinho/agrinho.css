@@ -10,7 +10,7 @@ body {
     box-shadow: 0 0 10px rgb(0, 0, 0); 
 }
 body {
-    background-image: linear-gradient(to right, #1455aaf1, #2d92df);
+    background-image: linear-gradient(to right, #8accb6f1, #2ea5a5);
 }
 #navbar {
     overflow: hidden;
@@ -49,7 +49,7 @@ button{
     background: transparent;
     outline: none;
     border: 0;
-    color: #0d7de6;
+    color: #0de6a5;
     letter-spacing: 0.1em;
     font-family: monospace;
     font-size: 17px;
@@ -66,7 +66,7 @@ button{
   .cube .bg-top {
     position: absolute;
     height: 10px;
-    background: #0d7de6;
+    background: #0de6c9cc;
     bottom: 100%;
     left: 5px;
     right: -5px;
@@ -85,13 +85,13 @@ button{
     bottom: 0;
     top: 0;
     right: 0;
-    background: #0d7de6;
+    background: #0de6b0;
     transition: all 0.4s;
   }
   
   .cube .bg-right {
     position: absolute;
-    background: #0d7de6;
+    background: #0de6c9cc;
     top: -5px;
     z-index: 0;
     bottom: 5px;
@@ -116,16 +116,16 @@ button{
   
   .cube .text {
     position: relative;
-    transition: all 0.4s;
+    transition: all 0.5s;
   }
   
   .cube:hover .bg-inner {
-    background: #0085dd;
+    background: #00dd4a;
     transition: all 0.4s;
   }
  
   .cube:hover .text {
-    color: #ffffff;
+    color: #000000;
     transition: all 0.4s;
   }
   
@@ -144,19 +144,23 @@ button{
     50% {
       transform: scale(0.9);
     }
+
   }
   .borda {
-  padding-left: 20px;
+  padding-left: 18px;
   }
   
   h1 {
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif; 
+    margin-top: 10px;
+    
   }
   p{
-    color: #010103;
+    color: #010103cc;
     font-size: 20px;
     text-align: justify;
+    margin: 20px;
   }
   li{
     color: #ffffffc9;
