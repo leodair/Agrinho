@@ -159,10 +159,23 @@ button{
   p{
     color: #010103cc;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     margin: 20px;
   }
   li{
     color: #ffffffc9;
     text-align: justify;
   }
+
+  .minha-foto img{
+    height: 80px;
+    border-radius: 20px;
+  }
+
+
+.minha-foto{
+  
+  text-align: center;
+  height: 10px;
+  
+}
