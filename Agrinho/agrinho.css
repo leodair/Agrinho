@@ -14,7 +14,7 @@ body {
 }
 #navbar {
     overflow: hidden;
-    background-color: #010103;
+    background-color: #000000;
   }
   
   #navbar a {
@@ -106,7 +106,7 @@ button{
   }
   
   .cube .bg-inner {
-    background: #28282d;
+    background: #000000;
     position: absolute;
     left: 2px;
     right: 2px;
@@ -120,7 +120,7 @@ button{
   }
   
   .cube:hover .bg-inner {
-    background: #00dd4a;
+    background: #0de6c9cc;
     transition: all 0.4s;
   }
  
@@ -132,7 +132,7 @@ button{
   .cube:hover .bg-right,
   .cube:hover .bg,
   .cube:hover .bg-top {
-    background: #28282d;
+    background: #000000;
   }
   
   .cube:active {
@@ -148,23 +148,25 @@ button{
   }
   .borda {
   padding-left: 18px;
+  border-radius: 50px;
   }
   
   h1 {
     color: rgb(0, 0, 0);
-    font-family: Arial, sans-serif; 
-    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    margin-top: 20px;
+    text-align: 50px;
     
   }
   p{
-    color: #010103cc;
+    color: #000000;
     font-size: 20px;
     text-align: center;
     margin: 20px;
   }
   li{
-    color: #ffffffc9;
-    text-align: justify;
+    color: #000000c9;
+    text-align: center;
   }
 
   .minha-foto img{
