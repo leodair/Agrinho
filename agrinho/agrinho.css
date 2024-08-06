@@ -167,21 +167,18 @@ button{
   }
   li{
     color: #000000c9;
-    text-align: center;
+    text-align: justify;
   }
-
-  .minha-foto img{
-    height: 80px;
-    border-radius: 20px;
-  }
-
 
 .minha-foto{
   
   text-align: center;
   height: 10px;
-  
+  overflow:visible;
+  background-color: #18ac67;
+  padding:  100px;
 }
-.tentativa{
-  height: 10px;
+.combustivel{
+  width: 200px;
+  height: auto;
 }
