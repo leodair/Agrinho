@@ -1,0 +1,205 @@
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgb(0, 0, 0); 
+}
+body {
+    background-image: linear-gradient(to right, #8accb6f1, #2ea5a5);
+}
+#navbar {
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+button{
+  width: 180px;
+} 
+
+  .content {
+    padding: 30px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 4;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 80px;
+  }
+  .btn {
+    display: block;
+    padding: 0.7em 1em;
+    background: transparent;
+    outline: none;
+    border: 0;
+    color: #0de6a5;
+    letter-spacing: 0.1em;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .cube {
+    position: relative;
+    transition: all 0.5s;
+  }
+  
+  .cube .bg-top {
+    position: absolute;
+    height: 10px;
+    background: #0de6c9cc;
+    bottom: 100%;
+    left: 5px;
+    right: -5px;
+    transform: skew(-45deg, 0);
+    margin: 0;
+    transition: all 0.4s;
+  }
+  
+  .cube .bg-top .bg-inner {
+    bottom: 0;
+  }
+  
+  .cube .bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background: #0de6b0;
+    transition: all 0.4s;
+  }
+  
+  .cube .bg-right {
+    position: absolute;
+    background: #0de6c9cc;
+    top: -5px;
+    z-index: 0;
+    bottom: 5px;
+    width: 10px;
+    left: 100%;
+    transform: skew(0, -45deg);
+    transition: all 0.4s;
+  }
+  
+  .cube .bg-right .bg-inner {
+    left: 0;
+  }
+  
+  .cube .bg-inner {
+    background: #000000;
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+  }
+  
+  .cube .text {
+    position: relative;
+    transition: all 0.5s;
+  }
+  
+  .cube:hover .bg-inner {
+    background: #0de6c9cc;
+    transition: all 0.4s;
+  }
+ 
+  .cube:hover .text {
+    color: #000000;
+    transition: all 0.4s;
+  }
+  
+  .cube:hover .bg-right,
+  .cube:hover .bg,
+  .cube:hover .bg-top {
+    background: #000000;
+  }
+  
+  .cube:active {
+    z-index: 9999;
+    animation: bounce 0.1s linear;
+  }
+  
+  @keyframes bounce {
+    50% {
+      transform: scale(0.9);
+    }
+
+  }
+  @media (max-width:500px) {
+    
+    .borda img{
+      width: 10px;
+    }
+  }
+    .borda {
+  padding-left: 18px;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 20px;
+ 
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    margin-top: 20px;
+    text-align: center;
+    
+  }
+  p{
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+  }
+  li{
+    color: #000000c9;
+    text-align: justify;
+  }
+
+.minha-foto{
+  
+  text-align: center;
+  height: 10px;
+  overflow:visible;
+  background-color: #18ac67;
+  padding:  100px;
+}
+.combustivel{
+  width: 200px;
+  height: auto;
+}
+
+.user{
+  text-align: center;
+  color: #000000;
+}
+
+.imagem{
+  text-align: center;
+@media (max-width: 575.98px) {
+  width: 10px;
+ }
+  
+}
