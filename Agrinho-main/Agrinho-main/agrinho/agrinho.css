@@ -146,28 +146,37 @@ button{
     }
 
   }
-  .borda {
+  @media (max-width:500px) {
+    
+    .borda img{
+      width: 10px;
+    }
+  }
+    .borda {
   padding-left: 18px;
   border-radius: 50px;
-  text-align: justify;
+  text-align: center;
+  margin-top: 20px;
+ 
   }
   
   h1 {
     color: rgb(0, 0, 0);
     font-family:Georgia, 'Times New Roman', Times, serif; 
     margin-top: 20px;
-    text-align: centers;
+    text-align: center;
     
   }
   p{
     color: #000000;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
     margin: 20px;
   }
   li{
     color: #000000c9;
     text-align: justify;
+    padding-inline-end: 30px;
   }
 
 .minha-foto{
@@ -181,4 +190,17 @@ button{
 .combustivel{
   width: 200px;
   height: auto;
+}
+
+.user{
+  text-align: center;
+  color: #000000;
+}
+
+.imagem{
+  text-align: center;
+@media (max-width: 575.98px) {
+  width: 10px;
+ }
+  
 }
