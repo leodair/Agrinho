@@ -1,27 +1,47 @@
-Agrinho é um site dedicado a destacar os benefícios do setor agropecuário, explorando a importância da agricultura na economia global, a segurança alimentar, a geração de empregos, e práticas sustentáveis. O site utiliza o framework Bootstrap para uma estrutura responsiva e estilização.
+# Agrinho
 
-Sumário
-Visão Geral
-Estrutura do Projeto
-Tecnologias Utilizadas
-Como Rodar o Projeto
-Contribuições
-Licença
-Visão Geral
-O Agrinho oferece uma visão aprofundada sobre o impacto do setor agropecuário na sociedade e no meio ambiente. O site é dividido em várias seções acessíveis através de um menu de navegação, incluindo:
+O **Agrinho** é um site dedicado a explorar o impacto e os benefícios do agronegócio, com foco na sua importância para as áreas urbanas e na promoção da sustentabilidade. O site é estruturado para fornecer informações detalhadas sobre o setor agropecuário e como ele contribui para a economia, o meio ambiente e a sociedade.
 
-Página Inicial: Apresenta o propósito do site.
-Benefícios: Detalha os benefícios econômicos, ambientais e sociais da agricultura.
-Eficiência: Foca em práticas de planejamento e eficiência no setor agropecuário.
-Estrutura do Projeto
-O site é composto pelos seguintes arquivos principais:
+## Estrutura do Site
 
-index.html: Página inicial do site.
-sobre.html: Página com detalhes sobre os benefícios do agro.
-planejamento.html: Página focada em eficiência e planejamento agrícola.
-assets/o-que-e-agricultura-de-precisao.jpg: Imagem usada na seção de benefícios.
-agrinho.css: Arquivo CSS personalizado para estilização do site.
-Tecnologias Utilizadas
-HTML5 : Linguagem
-CSS3 : Linguagem
-Bootstrap 5.3.3 : Quadro
+O site possui três páginas principais:
+
+1. **Página Inicial (index.html)**
+   - Apresenta uma introdução geral sobre a influência do agronegócio nas cidades.
+   - Aborda temas como agricultura urbana, técnicas verticais, eficiência energética, educação e conscientização, e integração com a economia local.
+
+2. **Sobre (sobre.html)**
+   - Destaca a importância do agronegócio para as áreas urbanas.
+   - Explora a contribuição econômica, o abastecimento de alimentos, o desenvolvimento tecnológico, a preservação ambiental, a coesão social e a contribuição para o PIB nacional.
+
+3. **Planejamento (planejamento.html)**
+   - Foca nos benefícios gerais do setor agropecuário.
+   - Inclui tópicos como segurança alimentar, geração de empregos, crescimento econômico, sustentabilidade, inovação tecnológica e fornecimento de matérias-primas.
+
+## Tecnologias Utilizadas
+
+- **HTML**: Estrutura básica das páginas.
+- **CSS**: Estilização das páginas, utilizando um arquivo separado (`agrinho.css`).
+- **Bootstrap**: Framework CSS para criar um design responsivo e moderno. Utilizado através do CDN.
+
+## Estrutura do Código
+
+### HTML
+
+Cada página HTML é estruturada com:
+- **Cabeçalho (Head)**: Inclui o link para o Bootstrap e o arquivo CSS externo.
+- **Corpo (Body)**: Contém a navegação, o conteúdo principal e o rodapé.
+- **Rodapé (Footer)**: Inclui a informação de copyright.
+
+### CSS
+
+O arquivo `agrinho.css` é utilizado para estilizar os elementos da página, garantindo que o site tenha um visual coeso e atraente.
+
+## Imagens
+
+O site inclui imagens relacionadas ao agronegócio e à agricultura urbana, que são usadas para ilustrar os conteúdos das páginas.
+
+## Desenvolvedor
+
+- **Nome**: Leodair Erik Palhano Joaquim
+- **Ano**: 2024
